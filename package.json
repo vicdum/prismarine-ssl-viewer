@@ -1,5 +1,5 @@
 {
-  "name": "prismarine-viewer",
+  "name": "prismarine-ssl-viewer",
   "version": "1.28.0",
   "description": "Web based viewer",
   "main": "index.js",
@@ -26,6 +26,7 @@
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "minecraft-data": "^3.0.0",
+    "pem": "^1.14.8",
     "prismarine-block": "^1.7.3",
     "prismarine-chunk": "^1.22.0",
     "prismarine-world": "^3.3.1",
@@ -47,7 +48,7 @@
     "minecrafthawkeye": "^1.2.5",
     "mineflayer": "^4.0.0",
     "mineflayer-pathfinder": "^2.0.0",
-    "node-canvas-webgl": "PrismarineJS/node-canvas-webgl",
+    "node-canvas-webgl": "github:PrismarineJS/node-canvas-webgl",
     "prismarine-schematic": "^1.2.0",
     "prismarine-viewer": "file:./",
     "process": "^0.11.10",
@@ -55,5 +56,11 @@
     "standard": "^17.1.0",
     "webpack": "^5.10.2",
     "webpack-cli": "^5.1.1"
+  },
+  "types": "./index.d.ts",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
